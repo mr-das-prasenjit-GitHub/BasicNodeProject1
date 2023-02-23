@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('Hello World from MCKVIE')
 })
 
-app.listen(80, ()=>{
+app.listen(8000, ()=>{
     console.log("Started server");
 }
 )
